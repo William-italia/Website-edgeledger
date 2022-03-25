@@ -101,6 +101,7 @@ img {
   font-size: 23px;
   max-width: 600px;
   margin: 20px 0 30px;
+  text-align: center;
 }
 
 .hero::before {
@@ -115,4 +116,113 @@ img {
 
 .hero * {
   z-index: 10;
+}
+
+/* Icons */
+.icons {
+  padding: 30px;
+}
+
+.icons h3 {
+  font-weight: bold;
+  margin-bottom: 15;
+}
+
+.icons i {
+  background-color: #20a745;
+  color: #fff;
+  padding: 16px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.cases img:hover {
+  opacity: 0.7;
+}
+
+.team img {
+  border-radius: 50%;
+}
+
+/* Callback form */
+.callback-form {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.callback-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.callback-form .form-control {
+  margin-bottom: 15px;
+}
+
+.callback-form input {
+  width: 100%;
+  padding: 4px;
+  height: 40px;
+  border: #f5f5f5 1px solid;
+}
+.callback-form input:focus {
+  outline-color: #20a745;
+
+}
+
+.callback-form .btn {
+  padding: 12px 0;
+  margin-top: 20px;
+}
+
+
+/* FOOTER */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover {
+  color: #20a745;
+}
+
+.footer .social > * {
+  margin-right: 30px;
+}
+
+/* mobile */
+@media (max-width: 768px) and (max-height: 813px) {
+  .navbar {
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;
+  }
+
+  .navbar a {
+    padding: 10px 10px;
+    margin: 0 3px;
+  }
+
+  .flex-items {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .flex-columns .column, 
+  .flex-grid .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .team img {
+      width: 70%;
+  }
 }
