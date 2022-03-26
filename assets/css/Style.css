@@ -118,6 +118,10 @@ img {
   z-index: 10;
 }
 
+.hero.blog {
+  background: url('../img/image_resources/home/blog.jpg') no-repeat center center/cover;
+  height: 30vh;
+}
 /* Icons */
 .icons {
   padding: 30px;
@@ -175,6 +179,28 @@ img {
   margin-top: 20px;
 }
 
+/* Post */
+.post {
+  padding: 50px 30px;
+}
+
+.post h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: #ccc solid 1px;
+}
+
+.post .meta {
+  margin-bottom: 30px;
+}
+
+.post img {
+  width: 300px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto  30px;
+}
 
 /* FOOTER */
 .footer {
@@ -199,7 +225,7 @@ img {
 }
 
 /* mobile */
-@media (max-width: 768px) and (max-height: 813px) {
+@media (max-width: 768px), (max-height: 813px) {
   .navbar {
     flex-direction: column;
     height: 120px;
