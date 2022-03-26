@@ -10,6 +10,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth; 
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   background: #fff;
@@ -54,7 +58,11 @@ img {
   position: fixed;
   top: 0px;
   padding: 0px 30px;
+  transition: 0.5s;
+}
 
+.navbar.top {
+  background: transparent;
 }
 
 .navbar ul {
@@ -143,6 +151,7 @@ img {
 .cases img:hover {
   opacity: 0.7;
 }
+
 
 .team img {
   border-radius: 50%;
@@ -251,4 +260,5 @@ img {
   .team img {
       width: 70%;
   }
+
 }
